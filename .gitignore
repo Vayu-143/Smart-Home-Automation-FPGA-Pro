@@ -1,0 +1,91 @@
+# ==========================================
+# Smart Home Automation FPGA Pro
+# Git Ignore File
+# ==========================================
+
+# Compiled simulation executables
+smart_home
+smart_home_pro
+*.out
+*.exe
+
+# Waveform dump files
+*.vcd
+*.vvp
+
+# GTKWave save files
+*.gtkw
+*.sav
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Backup files
+*~
+*.bak
+
+# VS Code
+.vscode/
+
+# Vivado Generated Files
+.cache/
+.hw/
+.ip_user_files/
+.sim/
+.srcs/
+.gen/
+.runs/
+.xpr
+.jou
+.str
+
+# Vivado Reports (optional)
+*.rpt
+
+# Quartus Files
+db/
+incremental_db/
+output_files/
+
+# ModelSim / Questa
+work/
+transcript
+vsim.wlf
+modelsim.ini
+
+# Icarus Verilog
+a.out
+
+# Python Cache (if future dashboard added)
+__pycache__/
+*.pyc
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Generated Bitstreams (optional)
+*.bit
+*.bin
+
+# Generated Netlists
+*.edf
+*.ngc
+*.ngd
+
+# Timing Databases
+*.dcp
+
+# Simulation Database Files
+*.vcd.gz
+
+# FPGA Debug Files
+*.ltx
+
+# Personal Notes
+notes.txt
+todo.txt
