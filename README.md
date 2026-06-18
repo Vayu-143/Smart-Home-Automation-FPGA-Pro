@@ -228,8 +228,6 @@ Smart-Home-Automation-FPGA-Pro/
 │   ├── Verification_Report.md
 │   └── FPGA_Implementation_Guide.md
 │
-├── reports/
-│
 ├── images/
 │
 ├── waveforms/
